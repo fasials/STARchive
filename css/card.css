@@ -1,0 +1,39 @@
+.card {
+    width: 310px;
+    background-color: #151515;
+    color: white;
+    border-left: 8px solid #00b4e6;
+    overflow: hidden;   
+    text-decoration: none;
+    box-shadow: 0 10px 20px 2px black;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;   
+    flex-wrap: wrap;        
+    gap: 30px;
+    margin-top: -150px;
+    padding: 0 40px 60px;
+}
+
+.card_img {
+    display: block;                
+    width: 100%;
+    height: 220px;                 
+    object-fit: cover;             
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card_body {
+    padding: 30px;                 
+}
+
+.card_body h2 {
+    margin: 0 0 10px;
+}
